@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+.container{
+    padding: 20px;
+    margin: 50px;
+    margin-left: 270px;
+    margin-right: 270px;
+    background-color: aquamarine;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+table {
+    table-layout: fixed;
+    width: 620px;
+  }
+  
+  td {
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  thead{
+    font-size: 20px;
+  }
